@@ -98,3 +98,62 @@ nav ul {
     max-width: 550px;
     height: auto;
 }
+
+.information h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    text-align: center;
+    margin: 75px 0;
+}
+
+.basics {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    flex-wrap: wrap;
+    /* Use flex-wrap so that the items can collapse when there is no more space */
+}
+
+.basic-item {
+    max-width: 250px;
+}
+
+.basic-item img {
+    max-width: 250px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.basic-item a {
+    text-decoration: none;
+}
+
+.more {
+    background-color: #3882f6;
+    max-width: 250px;
+    height: 250px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    font-weight: 900;
+    color: #f9faf8;
+    transition: 0.5s;
+}
+
+.more:hover {
+    background-color: #1a64da;
+    color: white;
+    transition: .5s;
+}
+
+.text {
+    text-align: center;
+    font-size: 18px;
+    color: #1f2937;
+}
+
+
+
