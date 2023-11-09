@@ -28,13 +28,8 @@ nav {
     max-width: 95px; 
     height: auto; 
     border-radius: 50%;
-    transition: .5s;
+    
     /* Make logo circular shape */
-}
-
-.logo:hover {
-    max-width: 100px;
-    transition: .5s;
 }
 
 nav ul {
